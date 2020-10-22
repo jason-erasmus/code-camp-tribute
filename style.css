@@ -11,7 +11,7 @@
 
 #main {
   margin: 20px 1px;
-  padding: 15px;
+  padding: 0;
   border-radius: 5px;
 }
 
@@ -22,18 +22,29 @@ img {
   padding: 15px;
   margin: 0 auto;
 }
-.img-div {
-  background-color: green;
-  padding: 25px;
-  margin: 25px;
-}
 
-.container2 {
+#img-div {
+  background-color: #fff;
+  padding: 25px;
+  margin: auto;
+}
+#img-caption {
+  background-color: #fff;
+  font-style: oblique;
+  color: rgb(85, 82, 82);
+  font-size: 15px;
+}
+.time-line {
   text-align: center;
   border-style: hidden;
   background-color: #efedec;
 }
 
 ul {
-  line-height: 2;
+  line-height: 200%;
+  padding-bottom: 5px;
+}
+li {
+  margin: 16px;
+  list-style-type: circle;
 }
